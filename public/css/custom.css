@@ -1,0 +1,67 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+/* ==========================================================================
+      1. Home page
+      ========================================================================== */
+a.btn {
+	color: white;
+	background-color: #01295d;
+}
+
+a.btn:hover {
+	background-color: #ec4d33;
+}
+
+#site-head {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0rem;
+  text-align: center;
+  color: #fff;
+  background: #01295d no-repeat center center;
+  background-size: cover;
+}
+
+/* ==========================================================================
+      5. Posts
+      ========================================================================== */
+
+.post-holder.odd {
+  background: #01295d;
+  color: white;
+}
+
+.post-after {
+  border-top: 50px solid #01295d;
+}
+
+/* ==========================================================================
+      5. Nav bar
+      ========================================================================== */
+}
+a.fn-item:hover {
+  color: #ec4d33;
+}
+
+a.fn-item.active {
+  color: #ec4d33;
+}
+
+.post-after {
+  border-top: 50px solid #ffffff;
+}
+
+a.btn:hover {
+  background: #ec4d33;
+}
+
+a.fn-item.active {
+  color: #ec4d33;
+  opacity: 1;
+}
